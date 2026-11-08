@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.ttf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.csv -text whitespace=cr-at-eol
+
+# Generated Markdown retains the exporter's final block separator.
+examples/ata-versao-1.md whitespace=-blank-at-eof

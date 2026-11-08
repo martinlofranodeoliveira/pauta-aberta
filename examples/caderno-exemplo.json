@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "meetings": [
+    {
+      "id": "mostra-aurora",
+      "title": "Mostra do Bairro Aurora",
+      "objective": "Organizar uma mostra comunitária fictícia com materiais reutilizáveis e circulação acessível.",
+      "date": "2026-11-07",
+      "time": "14:00",
+      "location": "Sala comunitária · cenário fictício",
+      "status": "closed",
+      "participants": [
+        {
+          "id": "pessoa-a",
+          "name": "Pessoa A",
+          "attendance": "present"
+        },
+        {
+          "id": "pessoa-b",
+          "name": "Pessoa B",
+          "attendance": "present"
+        }
+      ],
+      "agenda": [
+        {
+          "id": "abertura",
+          "title": "Abrir a conversa",
+          "minutes": 5,
+          "status": "discussed",
+          "notes": "Objetivo compartilhado: uma mostra pequena, acolhedora e sem compras desnecessárias."
+        },
+        {
+          "id": "espacos",
+          "title": "Organização dos espaços",
+          "minutes": 12,
+          "status": "discussed",
+          "notes": "Manter o corredor central livre e separar uma mesa para orientação."
+        },
+        {
+          "id": "proximos",
+          "title": "Próximos passos",
+          "minutes": 8,
+          "status": "deferred",
+          "notes": "Conferir a sinalização em uma visita posterior."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "mesas",
+          "topicId": "espacos",
+          "text": "Usar as mesas reutilizáveis do acervo fictício.",
+          "reason": "O material disponível atende à proposta e evita uma compra nova."
+        }
+      ],
+      "actions": [
+        {
+          "id": "sinais",
+          "topicId": "proximos",
+          "text": "Revisar a sinalização do percurso.",
+          "ownerId": "pessoa-a",
+          "due": "2026-11-09",
+          "status": "open"
+        },
+        {
+          "id": "lista",
+          "topicId": "espacos",
+          "text": "Preparar a lista de materiais já disponíveis.",
+          "ownerId": "pessoa-b",
+          "due": "",
+          "status": "done"
+        }
+      ],
+      "minutes": [
+        {
+          "version": 1,
+          "closedAt": "2026-11-07T18:00:00.000Z",
+          "meeting": {
+            "id": "mostra-aurora",
+            "title": "Mostra do Bairro Aurora",
+            "objective": "Organizar uma mostra comunitária fictícia com materiais reutilizáveis e circulação acessível.",
+            "date": "2026-11-07",
+            "time": "14:00",
+            "location": "Sala comunitária · cenário fictício",
+            "status": "closed",
+            "participants": [
+              {
+                "id": "pessoa-a",
+                "name": "Pessoa A",
+                "attendance": "present"
+              },
+              {
+                "id": "pessoa-b",
+                "name": "Pessoa B",
+                "attendance": "present"
+              }
+            ],
+            "agenda": [
+              {
+                "id": "abertura",
+                "title": "Abrir a conversa",
+                "minutes": 5,
+                "status": "discussed",
+                "notes": "Objetivo compartilhado: uma mostra pequena, acolhedora e sem compras desnecessárias."
+              },
+              {
+                "id": "espacos",
+                "title": "Organização dos espaços",
+                "minutes": 12,
+                "status": "discussed",
+                "notes": "Manter o corredor central livre e separar uma mesa para orientação."
+              },
+              {
+                "id": "proximos",
+                "title": "Próximos passos",
+                "minutes": 8,
+                "status": "deferred",
+                "notes": "Conferir a sinalização em uma visita posterior."
+              }
+            ],
+            "decisions": [
+              {
+                "id": "mesas",
+                "topicId": "espacos",
+                "text": "Usar as mesas reutilizáveis do acervo fictício.",
+                "reason": "O material disponível atende à proposta e evita uma compra nova."
+              }
+            ],
+            "actions": [
+              {
+                "id": "sinais",
+                "topicId": "proximos",
+                "text": "Revisar a sinalização do percurso.",
+                "ownerId": "pessoa-a",
+                "due": "2026-11-09",
+                "status": "open"
+              },
+              {
+                "id": "lista",
+                "topicId": "espacos",
+                "text": "Preparar a lista de materiais já disponíveis.",
+                "ownerId": "pessoa-b",
+                "due": "",
+                "status": "open"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
